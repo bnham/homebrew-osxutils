@@ -1,7 +1,8 @@
 class BreakpadMinidump < Formula
   desc "breakpad_minidump is a set of tools that can be used to inspect Google Breakpad minidumps"
   homepage "https://chromium.googlesource.com/breakpad/breakpad/"
-  head "https://chromium.googlesource.com/breakpad/breakpad", :branch => "chrome_64"
+  head "https://chromium.googlesource.com/breakpad/breakpad.git", :branch => "chrome_64"
+  version "chrome_64"
 
   depends_on :xcode
 
